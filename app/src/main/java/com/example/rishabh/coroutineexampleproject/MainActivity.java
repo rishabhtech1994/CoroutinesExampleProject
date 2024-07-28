@@ -1,5 +1,7 @@
 package com.example.rishabh.coroutineexampleproject;
 
+import static kotlinx.coroutines.CoroutineScopeKt.MainScope;
+
 import android.os.Bundle;
 
 import androidx.activity.EdgeToEdge;
@@ -18,17 +20,12 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-
-
         /*viewModel.data.observe(this, Observer { data ->
                 textView.text = data
         })
 
         // Trigger data fetch
         viewModel.fetchData()*/
-
-
-
 
     }
 }
